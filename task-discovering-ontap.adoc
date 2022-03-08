@@ -22,9 +22,9 @@ In addition to being able to provision storage on those systems, adding these sy
 +
 If you want to tier cold data to the cloud, then you should review requirements for the Connector based on where you plan to tier cold data.
 +
-** link:concept-connectors.html[Learn about Connectors^]
-** link:task-managing-connectors.html[Switching between Connectors^]
-** link:concept-cloud-tiering.html[Learn about Cloud Tiering^]
+** https://docs.netapp.com/us-en/cloud-manager-get-started/concept-connectors.html[Learn about Connectors^]
+** https://docs.netapp.com/us-en/cloud-manager-connector/task-managing-connectors.html[Switching between Connectors^]
+** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html[Learn about Cloud Tiering^]
 
 * The cluster management IP address and the password for the admin user account to add the cluster to Cloud Manager.
 +
