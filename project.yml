@@ -40,20 +40,20 @@ homepage:
   tiles:
     - title: Get started
       links:
-        - title: title
-          url: page.html
-        - title: title
-          url: page.html
-        - title: title
-          url: page.html
-    - title: tile name
+        - title: Discover ONTAP clusters
+          url: task-discovering-ontap.html
+        - title: What’s New
+          url: whats-new.html
+    - title: Managing on-prem ONTAP clusters
       links:
-        - title: title
-          url: page.html
-        - title: title
-          url: page.html
-        - title: title
-          url: page.html
+        - title: Viewing discovered and undiscovered on-prem clusters
+          url: task-discovering-ontap.html#viewing-discovered-and-undiscovered-on-prem-clusters
+        - title: Creating volumes
+          url: task-provisioning-ontap.html
+        - title: Downloading new disk and shelf firmware
+          url: task-managing-ontap.html#downloading-new-disk-and-shelf-firmware
+        - title: Using System Manager and the CLI to manage on-premises ONTAP systems
+          url: task-connect-to-onprem.html
     - title: Blogs & community
       links:
         - title: NetApp Community

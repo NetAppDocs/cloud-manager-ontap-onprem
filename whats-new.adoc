@@ -15,44 +15,36 @@ summary: Learn what's new in <service>.
 [.lead]
 Learn what's new in <service>.
 
-tag::whats-new[]
-== <date of release in the format dd month year like 28 Nov 2021>
+// tag::whats-new[]
+== 27 Feb 2022
 
-=== <feature title>
+=== An "On-Premises ONTAP" tab is available in the Digital Wallet.
 
-<description>
+Now you can view an inventory of your on-prem ONTAP clusters along with their hardware and service contracts expiration dates. Additional details about the clusters are also available.
 
-=== <feature title>
+link:task-discovering-ontap.html#viewing-cluster-information-and-contract-details[See how to view this important on-prem cluster information]. You'll need to have a NetApp Support Site account (NSS) for the clusters, and the NSS credentials will need to be attached to your Cloud Manager account.
 
-<description>
+== 11 Jan 2022
 
-== <date of release in the format dd month year like 28 Nov 2021>
+=== Tags that you add to volumes on on-prem ONTAP clusters can be use with the Tagging service.
 
-=== <feature title>
+Tags that you add to a volume are now associated with the  tagging feature of the Application Templates service, which can help you organize and simplify the management of your resources.
 
-<description>
+== 28 Nov 2021
 
-=== <feature title>
+=== Create volume wizard for on-prem ONTAP clusters has been simplified
 
-<description>
+We redesigned the create volume wizard for ease of use and you can now choose a custom export policy.
+// end::whats-new[]
 
-== <date of release in the format dd month year like 28 Nov 2021>
+== 8 Mar 2021
 
-=== <feature title>
+=== On-prem ONTAP cluster information available in the Active IQ service
 
-<description>
+* When Active IQ displays the list of your on-prem clusters (based on your NSS account), you can click a button to link:task-discovering-ontap.html#discovering-clusters-from-the-discovery-page[discover the cluster^] and add it to the Cloud Manager Canvas. This makes it easier to manage all your storage systems from Cloud Manager.
 
-=== <feature title>
+* When Active IQ determines that one or more clusters require firmware updates, you can click a button to link:task-managing-ontap.html#downloading-new-disk-and-shelf-firmware[download the Ansible playbook and upgrade the cluster firmware^].
 
-<description>
-end::whats-new[]
-
-== <date of release in the format dd month year like 28 Nov 2021>
-
-=== <feature title>
-
-<description>
-
-=== <feature title>
-
-<description>
+* A new link:task-managing-ontap.html#viewing-on-prem-workloads-that-are-candidates-for-the-cloud[Cloud-Ready Workloads tab^] provides a list of the workloads or volumes that we have identified as ideal to move to the cloud from your on-prem ONTAP clusters. Moving some of these volumes could reduce your costs and improve performance and resiliency.
++
+See link:https://www.netapp.com/knowledge-center/what-is-lift-and-shift[What is Lift and Shift?]
