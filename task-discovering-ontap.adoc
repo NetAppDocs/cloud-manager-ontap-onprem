@@ -38,7 +38,7 @@ If the Connector is in the cloud, all outbound communication is allowed by the p
 +
 The default "mgmt" firewall policy allows inbound HTTPS access from all IP addresses. If you modified this default policy, or if you created your own firewall policy, you must associate the HTTPS protocol with that policy and enable access from the Connector host.
 
-* A valid set of NetApp Support Site credentials. See how to link:task-adding-nss-accounts.html[add NetApp Support Site accounts to Cloud Manager].
+* A valid set of NetApp Support Site credentials. See how to https://docs.netapp.com/us-en/cloud-manager-get-started/task-adding-nss-accounts.html[add the NSS account to Cloud Manager^].
 
 == Viewing discovered and undiscovered on-prem clusters
 
