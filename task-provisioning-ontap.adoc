@@ -100,7 +100,7 @@ image:screenshot_define_ontap_vol_from_template.png[A screenshot showing a blank
 
 . In the _Context_ area, the Working Environment is filled in with the name of the working environment you started with. You need to select the *Storage VM* and *Aggregate* where the volume will be created.
 
-. Add values for all of the parameters that are not hard-coded from the template. See <<Creating volumes ,creating volumes>> for details about all the parameters you need to complete to deploy an on-prem ONTAP volume.
+. Add values for all of the parameters that are not hard-coded from the template. See <<Creating volumes,creating volumes>> for details about all the parameters you need to complete to deploy an on-prem ONTAP volume.
 
 . Click *Run Template* after you have defined all the parameters needed for this volume.
 
