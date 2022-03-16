@@ -40,14 +40,14 @@ homepage:
   tiles:
     - title: Get started
       links:
-        - title: Discover ONTAP clusters
+        - title: Viewing discovered and undiscovered on-prem clusters
+          url: task-discovering-ontap.html#viewing-discovered-and-undiscovered-on-prem-clusters
+        - title: Discovering ONTAP clusters
           url: task-discovering-ontap.html
         - title: What’s New
           url: whats-new.html
     - title: Managing on-prem ONTAP clusters
       links:
-        - title: Viewing discovered and undiscovered on-prem clusters
-          url: task-discovering-ontap.html#viewing-discovered-and-undiscovered-on-prem-clusters
         - title: Creating volumes
           url: task-provisioning-ontap.html
         - title: Downloading new disk and shelf firmware
