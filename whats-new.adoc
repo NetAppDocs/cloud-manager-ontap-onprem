@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
 permalink: whats-new.html
-keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes
-summary: Learn what's new in <service>.
+keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem
+summary: Learn what's new with on-prem ONTAP clusters.
 ---
 
-= What's new with <service>
+= What's new with on-prem ONTAP clusters
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -13,7 +13,7 @@ summary: Learn what's new in <service>.
 :imagesdir: ./media/
 
 [.lead]
-Learn what's new in <service>.
+Learn what's new with on-prem ONTAP clusters.
 
 // tag::whats-new[]
 == 27 Feb 2022

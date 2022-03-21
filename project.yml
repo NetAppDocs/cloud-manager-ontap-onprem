@@ -7,7 +7,7 @@ settings:
     pdf_enabled: true
 sidebar:
   entries:
-    - title: Back to Cloud Manager documentation
+    - title: All Cloud Manager documentation
       url: https://docs.netapp.com/us-en/cloud-manager-family
     - title: On-prem ONTAP cluster docs
       url: /index.html
@@ -44,19 +44,19 @@ homepage:
   tiles:
     - title: Get started
       links:
-        - title: Viewing discovered and undiscovered on-prem clusters
+        - title: View discovered and undiscovered on-prem clusters
           url: task-discovering-ontap.html#viewing-discovered-and-undiscovered-on-prem-clusters
-        - title: Discovering ONTAP clusters
+        - title: Discover ONTAP clusters
           url: task-discovering-ontap.html
         - title: What’s New
           url: whats-new.html
-    - title: Managing on-prem ONTAP clusters
+    - title: Manage on-prem ONTAP clusters
       links:
-        - title: Creating volumes
+        - title: Create volumes
           url: task-provisioning-ontap.html
-        - title: Downloading new disk and shelf firmware
+        - title: Download new disk and shelf firmware
           url: task-managing-ontap.html#downloading-new-disk-and-shelf-firmware
-        - title: Using System Manager and the CLI to manage on-premises ONTAP systems
+        - title: Use System Manager and the CLI to manage on-prem ONTAP systems
           url: task-connect-to-onprem.html
     - title: Blogs & community
       links:
