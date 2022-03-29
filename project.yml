@@ -1,7 +1,68 @@
 settings:
-  name: "Product Name"
+  name: On-prem ONTAP clusters
+  platform: cloud
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
 sidebar:
+  entries:
+    - title: All Cloud Manager documentation
+      url: https://docs.netapp.com/us-en/cloud-manager-family
+    - title: On-prem ONTAP cluster docs
+      url: /index.html
+    - title: Release notes
+      url: /whats-new.html
+    - title: Get started
+      entries:
+        - title: Discover ONTAP clusters
+          url: /task-discovering-ontap.html
+    - title: Manage on-prem ONTAP clusters
+      entries:
+        - title: Manage on-prem ONTAP volumes
+          url: /task-provisioning-ontap.html
+        - title: Optimize clusters using Active IQ Digital Advisor
+          url: /concept-aiq-digital-advisor.html
+        - title: Manage clusters using Active IQ data
+          url: /task-managing-ontap.html
+        - title: Connect to your on-prem cluster
+          url: /task-connect-to-onprem.html
+        - title: Remove an on-prem ONTAP working environment
+          url: /task-remove-on-prem.html
+    - title: Knowledge and support
+      entries:
+        - title: Register for support
+          url: /task-support-registration.html
+        - title: Get help
+          url: /task-get-help.html
+    - title: Legal notices
+      url: /legal-notices.html
+product-family:
+  name: Cloud Manager
+  repo: cloud-manager-family
+homepage:
+  tiles:
+    - title: Get started
+      links:
+        - title: View discovered and undiscovered on-prem clusters
+          url: task-discovering-ontap.html#viewing-discovered-and-undiscovered-on-prem-clusters
+        - title: Discover ONTAP clusters
+          url: task-discovering-ontap.html
+        - title: What’s New
+          url: whats-new.html
+    - title: Manage on-prem ONTAP clusters
+      links:
+        - title: Create volumes
+          url: task-provisioning-ontap.html
+        - title: Download new disk and shelf firmware
+          url: task-managing-ontap.html#downloading-new-disk-and-shelf-firmware
+        - title: Use System Manager and the CLI to manage on-prem ONTAP systems
+          url: task-connect-to-onprem.html
+    - title: Blogs & community
+      links:
+        - title: NetApp Community
+          url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+        - title: Cloud Central blog
+          url: https://cloud.netapp.com/blog
+        - title: Cloud webinars
+          url: https://cloud.netapp.com/events
