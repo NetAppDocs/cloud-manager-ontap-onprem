@@ -70,7 +70,7 @@ image:screenshot_aiq_main_page.png[A screenshot of the main Discovery page for o
 +
 Your ONTAP clusters that have a valid support contract are displayed with a status of whether they have been discovered in Cloud Manager.
 
-NOTE: If your support contract expires, the systems are removed from the Discovery page. However, you can continue to manage these systems in their working environment. See how to link:https://docs.netapp.com/us-en/active-iq/task-renew-support-contracts-for-your-systems.html[renew your support contract from Active IQ Digital Advisor^].
+NOTE: If your support contract expires, the systems are removed from the Discovery page. However, you can continue to manage these systems in their working environment. See how to link:https://docs.netapp.com/us-en/active-iq/task_renew_support_contracts_for_your_systems.html[renew your support contract from Active IQ Digital Advisor^].
 
 == Viewing cluster information and contract details
 
