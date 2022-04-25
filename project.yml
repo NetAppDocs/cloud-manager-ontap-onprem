@@ -25,8 +25,6 @@ sidebar:
           url: /concept-aiq-digital-advisor.html
         - title: Manage clusters using Active IQ data
           url: /task-managing-ontap.html
-        - title: Connect to your on-prem cluster
-          url: /task-connect-to-onprem.html
         - title: Remove an on-prem ONTAP working environment
           url: /task-remove-on-prem.html
     - title: Knowledge and support
@@ -56,8 +54,6 @@ homepage:
           url: task-provisioning-ontap.html
         - title: Download new disk and shelf firmware
           url: task-managing-ontap.html#downloading-new-disk-and-shelf-firmware
-        - title: Use System Manager and the CLI to manage on-prem ONTAP systems
-          url: task-connect-to-onprem.html
     - title: Blogs & community
       links:
         - title: NetApp Community
