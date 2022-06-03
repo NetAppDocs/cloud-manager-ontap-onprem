@@ -18,13 +18,15 @@ Learn what's new with on-prem ONTAP clusters.
 // tag::whats-new[]
 == 6 June 2022
 
-=== Advanced View
+The following change was introduced with the 3.9.19 release of the Connector.
+
+=== New Advanced View
 
 If you need to perform advanced management of an ONTAP on-premises cluster, you can do so using ONTAP System Manager, which is a management interface that's provided with an ONTAP system. We have included the System Manager interface directly inside Cloud Manager so that you don't need to leave Cloud Manager for advanced management.
 
 This Advanced View is available as a Preview. We plan to refine this experience and add enhancements in upcoming releases. Please send us feedback by using the in-product chat.
 
-link:task-administer-system-manager.html[Learn how to use the Advanced View].
+link:task-administer-system-manager.html[Learn more about the Advanced View].
 
 == 27 February 2022
 
