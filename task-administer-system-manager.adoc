@@ -1,11 +1,11 @@
 ---
 sidebar: sidebar
-permalink: task-administer-system-manager.html
+permalink: task-administer-advanced-view.html
 keywords: system manager, advanced view, access system manager, load system manager, use system manager
 summary: If you need to perform advanced management of an ONTAP on-premises cluster, you can do so using ONTAP System Manager, which is a management interface that's provided with an ONTAP system. We have included the System Manager interface directly inside Cloud Manager so that you don't need to leave Cloud Manager for advanced management.
 ---
 
-= Administer ONTAP using System Manager
+= Administer ONTAP using the Advanced View
 :hardbreaks:
 :nofooter:
 :icons: font
@@ -53,17 +53,19 @@ A few System Manager features are not supported with on-premises ONTAP clusters 
 
 * Cluster setup
 +
-Cluster setup must be completed outside of Cloud Manager.
+After you set the management IP address and configure the admin password on an on-prem ONTAP cluster, you can discover the cluster in Cloud Manager and then continue cluster setup from the Advanced View.
 
 * Cloud Backup activation
 +
 Enable Cloud Backup on an on-premises cluster directly from Cloud Backup. https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html[Learn how to get started^].
 
-* Firmware upgrades
+* On-demand upgrades
 +
-Automatic firmware updates from the *Cluster > Settings* page is not supported.
+On-demand upgrades of firmware and software are not available.
 
-In addition, role-based access control from System Manager is not supported.
+* Role-based access control
++
+Role-based access control from System Manager is not supported.
 
 == How to get started
 

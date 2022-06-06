@@ -22,7 +22,7 @@ sidebar:
         - title: Manage on-prem ONTAP volumes
           url: /task-provisioning-ontap.html
         - title: Administer using System Manager
-          url: /task-administer-system-manager.html
+          url: /task-administer-advanced-view.html
         - title: Optimize clusters using Active IQ Digital Advisor
           url: /concept-aiq-digital-advisor.html
         - title: Manage clusters using Active IQ data
