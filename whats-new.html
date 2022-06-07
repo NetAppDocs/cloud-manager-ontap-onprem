@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">English</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">English</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/us-en/cloud-manager-ontap-onprem/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/whats-new.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/cloud-manager-ontap-onprem/whats-new.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/cloud-manager-ontap-onprem/whats-new.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/cloud-manager-ontap-onprem/whats-new.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/cloud-manager-ontap-onprem/whats-new.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/whats-new.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/cloud-manager-ontap-onprem/whats-new.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/cloud-manager-ontap-onprem/whats-new.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/cloud-manager-ontap-onprem/whats-new.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ko-kr/cloud-manager-ontap-onprem/whats-new.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -362,8 +354,6 @@
           <img src="/us-en/cloud-manager-ontap-onprem/images/pdf.png" width="16" height="16"/>PDF of this doc site</a>
 
 
-
-
     <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
   <a target="_blank" href="/us-en/cloud-manager-ontap-onprem/pdfs/pages/whats-new.pdf" >
     <img src="/us-en/cloud-manager-ontap-onprem/images/pdf.png" width="16" height="16"/>
@@ -418,6 +408,8 @@
             Manage on-prem ONTAP clusters
           </a>
           
+
+
 
 
 
@@ -502,10 +494,10 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
-  <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="https://docs.netapp.com/us-en/cloud-manager-family">
-        All Cloud Manager documentation
-      </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/cloud-manager-ontap-onprem/index.html">
+</script><div class="prod-nav" id="product-nav">
+  <a target="_self" class="prod-fam-nav" href="https://docs.netapp.com/us-en/cloud-manager-family/"><img src="/us-en/cloud-manager-ontap-onprem/images/left_arrow.png" alt=""><pre>All Cloud Manager documentation</pre></a>
+</div><div class="sidebar-nav-container" id="mysidebardiv">
+  <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/us-en/cloud-manager-ontap-onprem/index.html">
         On-prem ONTAP cluster docs
       </a></li><li class="  active "><a class="na-navbar-padding" href="/us-en/cloud-manager-ontap-onprem/whats-new.html">
         Release notes
@@ -519,6 +511,8 @@
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/us-en/cloud-manager-ontap-onprem/task-provisioning-ontap.html">
         Manage on-prem ONTAP volumes
+      </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/cloud-manager-ontap-onprem/task-administer-advanced-view.html">
+        Administer using System Manager
       </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/cloud-manager-ontap-onprem/concept-aiq-digital-advisor.html">
         Optimize clusters using Active IQ Digital Advisor
       </a></li><li class=" "><a class="na-navbar-padding" href="/us-en/cloud-manager-ontap-onprem/task-managing-ontap.html">
@@ -589,11 +583,19 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-04 17:28:42 +0000">04/04/2022</time>
+    <time datetime="2022-06-07 13:15:29 +0000">06/07/2022</time>
     
   
 
 <span>Contributors
+  <a target="_blank" class="ext-link-indicator" href="https://github.com/netapp-bcammett">
+    <img  class="avatar avatar-small"
+          alt="netapp-bcammett"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/18287750?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
   <a target="_blank" class="ext-link-indicator" href="https://github.com/netapp-tonacki">
     <img  class="avatar avatar-small"
           alt="netapp-tonacki"
@@ -611,6 +613,26 @@
 <div class="sectionbody">
 <div class="paragraph lead">
 <p>Learn what&#8217;s new with on-prem ONTAP clusters.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="7-june-2022">7 June 2022</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The following change was introduced with the 3.9.19 release of the Connector.</p>
+</div>
+<div class="sect2">
+<h3 id="new-advanced-view">New Advanced View</h3>
+<div class="paragraph">
+<p>If you need to perform advanced management of an ONTAP on-premises cluster, you can do so using ONTAP System Manager, which is a management interface that&#8217;s provided with an ONTAP system. We have included the System Manager interface directly inside Cloud Manager so that you don&#8217;t need to leave Cloud Manager for advanced management.</p>
+</div>
+<div class="paragraph">
+<p>This Advanced View is available as a Preview with on-premises ONTAP clusters running 9.10.0 or later. We plan to refine this experience and add enhancements in upcoming releases. Please send us feedback by using the in-product chat.</p>
+</div>
+<div class="paragraph">
+<p><a href="task-administer-advanced-view.html">Learn more about the Advanced View</a>.</p>
+</div>
 </div>
 </div>
 </div>
@@ -820,4 +842,5 @@
     </script>
     <script src='/us-en/cloud-manager-ontap-onprem/js/www-ntap.js'></script>
     <script src='/us-en/cloud-manager-ontap-onprem/js/tabbed-blocks.js'></script>
+    <script src='/us-en/cloud-manager-ontap-onprem/js/sidebar.js'></script>
   </body></html>
