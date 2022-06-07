@@ -16,6 +16,18 @@ summary: Learn what's new with on-prem ONTAP clusters.
 Learn what's new with on-prem ONTAP clusters.
 
 // tag::whats-new[]
+== 7 June 2022
+
+The following change was introduced with the 3.9.19 release of the Connector.
+
+=== New Advanced View
+
+If you need to perform advanced management of an ONTAP on-premises cluster, you can do so using ONTAP System Manager, which is a management interface that's provided with an ONTAP system. We have included the System Manager interface directly inside Cloud Manager so that you don't need to leave Cloud Manager for advanced management.
+
+This Advanced View is available as a Preview with on-premises ONTAP clusters running 9.10.0 or later. We plan to refine this experience and add enhancements in upcoming releases. Please send us feedback by using the in-product chat.
+
+link:task-administer-advanced-view.html[Learn more about the Advanced View].
+
 == 27 February 2022
 
 === An "On-Premises ONTAP" tab is available in the Digital Wallet.
@@ -29,13 +41,13 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 === Tags that you add to volumes on on-prem ONTAP clusters can be use with the Tagging service.
 
 Tags that you add to a volume are now associated with the  tagging feature of the Application Templates service, which can help you organize and simplify the management of your resources.
+// end::whats-new[]
 
 == 28 November 2021
 
 === Create volume wizard for on-prem ONTAP clusters has been simplified
 
 We redesigned the create volume wizard for ease of use and you can now choose a custom export policy.
-// end::whats-new[]
 
 == 8 March 2021
 

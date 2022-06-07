@@ -8,8 +8,6 @@ settings:
     harmony_enabled: true
 sidebar:
   entries:
-    - title: All Cloud Manager documentation
-      url: https://docs.netapp.com/us-en/cloud-manager-family
     - title: On-prem ONTAP cluster docs
       url: /index.html
     - title: Release notes
@@ -22,6 +20,8 @@ sidebar:
       entries:
         - title: Manage on-prem ONTAP volumes
           url: /task-provisioning-ontap.html
+        - title: Administer using System Manager
+          url: /task-administer-advanced-view.html
         - title: Optimize clusters using Active IQ Digital Advisor
           url: /concept-aiq-digital-advisor.html
         - title: Manage clusters using Active IQ data
@@ -39,6 +39,7 @@ sidebar:
 product-family:
   name: Cloud Manager
   repo: cloud-manager-family
+  sidebar_label: All Cloud Manager documentation
 homepage:
   tiles:
     - title: Get started
